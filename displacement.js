@@ -124,19 +124,30 @@
 
 		/*--- End of Hamburger Menu ---*/
 
+		/*--- Toggle Img Caption Show/Hide ---*/
+		var imgCaptions = document.getElementsByClassName("img-caption");
+		var thirdPageImgs = document.querySelectorAll(".third-page-pics > input[type='image']");
+		thirdPageImgs.forEach(function(image){
+		  image.addEventListener("click", function(e){
+		    var imgCaption = this.nextElementSibling;
+		    if(!e.target.matches(".img-caption")){
+		      imgCaption.classList.toggle("hide-caption");
+		    }
+		  })
+		})
 
 		/*--- Open and Close Accordion Panels ---*/
 		var accordions = document.getElementsByClassName("accordion");
-		var panel;
+		var innerPanel;
 		var i;
 		for (i = 0; i < accordions.length; i++) {
 		  	accordions[i].onclick = function(e) {
 		    	this.classList.toggle("active");
-		    	panel = this.nextElementSibling;
-		        if (panel.style.maxHeight){
-		            panel.style.maxHeight = null;
+		    	innerPanel = this.nextElementSibling;
+		        if (innerPanel.style.maxHeight){
+		            innerPanel.style.maxHeight = null;
 		        } else {
-		            panel.style.maxHeight = panel.scrollHeight + "px";
+		            innerPanel.style.maxHeight = innerPanel.scrollHeight + "px";
 		        }
 		    }
 		}
