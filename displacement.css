@@ -304,7 +304,7 @@ nav {
 #search-bar {
 	position: relative;
 	width: 100%;
-	background-color: #333;
+	background-color: transparent;
 	color: #F1C40F;
 	border: 1px solid #F1C40F;
 	border-radius: 4px;
@@ -317,8 +317,8 @@ nav {
 #search-bar:focus {
 	outline: none !important;
 }
-#search-btn {
-	background-color: #333;
+#search-icon {
+	background-color: transparent;
 	padding: 8px 10px 5px;
 	color: #F1C40F;
 	font-size: 1.5rem;
@@ -334,7 +334,7 @@ nav {
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
-	z-index: 2;
+	z-index: 1;
 }
 #close-search-btn {
 	width: 45px;
@@ -597,33 +597,6 @@ a.next-page:hover .glyphicon-chevron-right {
 	-moz-border-radius: 4px;
 	margin-bottom: 5px;
 }
-.solve-selection2,
-.unit-selection2 {
-	background: var(--main-black-color);
-  color: var(--main-yellow-color);
-  font-weight: normal;
-  padding: 5px 8px 5px;
-  border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	margin-bottom: 5px;
-}
-.unit-selection2,
-.solve-selection2 {
-	display: none;
-}
-#solve-selector,
-#unit-selector {
-	width: 85%;
-	max-width: 430px;
-	background-color: var(--main-black-color);
-	border: 1.5px solid var(--main-yellow-color);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	padding: 5px 10px;
-	margin-left: 5px;
-}
 /*--- BADGES ---*/
 .badge {
 	color: #333 !important;
@@ -638,6 +611,9 @@ a.next-page:hover .glyphicon-chevron-right {
   -webkit-user-select:none;
   -moz-user-select:none;
   -ms-user-select:none;
+}
+.radio-btn:last-child {
+	margin-right: 5px;
 }
 .radio-btn input {
   display:none;
@@ -1278,6 +1254,12 @@ button.accordion.active:after {
 }
 /*--- Media Queries ---*/
 @media screen and (max-width: 1200px){
+	.solve-selection,
+  .unit-selection {
+    width: auto;
+		white-space: nowrap;
+		overflow-x: scroll !important;
+  }
 	.form-control {
 		padding: 17px 10px;
 	}
@@ -1529,14 +1511,6 @@ button.accordion.active:after {
 	#search-form,
 	#search-case-list a {
 		width: 250px;
-	}
-	.unit-selection,
-	.solve-selection {
-		display: none;
-	}
-	.unit-selection2,
-	.solve-selection2 {
-		display: block;
 	}
 }
 @media screen and (max-width: 350px){
