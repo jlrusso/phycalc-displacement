@@ -40,8 +40,8 @@
 
 	<div id="search-container">
 		<section id="search-form">
-			<input type="text" id="search-bar"/>
-			<div id="search-btn"><i class="glyphicon glyphicon-search"></i></div>
+			<input type="text" id="search-bar" placeholder="Search"/>
+			<div id="search-icon"><i class="glyphicon glyphicon-search"></i></div>
 		</section>
 		<div id="close-search-btn">
 			<span id="close-bar-one"></span>
@@ -126,9 +126,6 @@
 							<div class="panel-title">
 								<div class="solve-selection">
 									<form>
-										<span hidden id="disp-symbol">&Delta;x</span>
-										<span hidden id="final-p-symbol">F-<sub>p</sub></span>
-										<span hidden id="initial-p-symbol">I-<sub>p</sub></span>
 										<span><span class="badge">1</span><b> Solve:&nbsp;</b></span>
 										<label class="radio-btn">
 										 	<input type="radio" class="solve-btns" name="radio-one" id="solve-displacement-radio-btn">
@@ -143,15 +140,6 @@
 										    <span class="checkmark">Initial Position</span>
 										</label>
 									</form>
-								</div>
-								<div class="solve-selection2">
-									<span class="badge">1</span>
-									<select id="solve-selector">
-										<option value="">Solve for:</option>
-										<option value="" id="displacement-option">Displacement</option>
-										<option value="" id="final-position-option">Final Position</option>
-										<option value="" id="initial-position-option">Initial Position</option>
-									</select>
 								</div>
 								<div class="unit-selection">
 									<form>
@@ -174,17 +162,6 @@
 										    <span class="checkmark">Kilometers</span>
 										</label>
 									</form>
-								</div>
-								<div class="unit-selection2">
-									<span class="badge">2</span>
-									<select id="unit-selector">
-										<option value=""> Unit:</option>
-										<option value="" id="meter-option">meter</option>
-										<option value="" id="mile-option">mile</option>
-										<option value="" id="feet-option">feet</option>
-										<option value="" id="kilometer-option">kilometer</option>
-										<option value="">Unit:</option>
-									</select>
 								</div>
 							</div>
 						</div>
