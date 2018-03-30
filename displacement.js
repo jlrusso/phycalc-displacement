@@ -200,41 +200,7 @@
 			function resetTrigAndUnitSelectors(){
 				currentSlideIndex = 0;
 				switchToSlide();
-				$("#solve-selector").prop("selectedIndex", 0);
-				$("#unit-selector").prop("selectedIndex", 0);
 			}
-
-			$("#solve-selector").change(function(){
-				switch(true){
-					case $("#displacement-option").is(":selected"):
-						solveForDisplacement.click();
-					break;
-					case $("#final-position-option").is(":selected"):
-						solveForFinalPosition.click();
-					break;
-					case $("#initial-position-option").is(":selected"):
-						solveForInitialPosition.click();
-					break;
-				}
-			})
-
-			$("#unit-selector").change(function(){
-				switch(true){
-					case $("#meter-option").is(":selected"):
-						meterBtn.click();
-					break;
-					case $("#kilometer-option").is(":selected"):
-						kilometerBtn.click();
-					break;
-					case $("#feet-option").is(":selected"):
-						feetBtn.click();
-					break;
-					case $("#mile-option").is(":selected"):
-						mileBtn.click();
-					break;
-				}
-			})
-
 
 		calculateBtn.addEventListener("click", calculateFunction);
 		clearBtn.addEventListener("click", clearFunction);
@@ -252,8 +218,6 @@
 				chosenUnit = firstUnits[i].getAttribute("units");
 			});
 		}
-
-
 
 		function solveForFunction(){
 
@@ -543,13 +507,6 @@
 			}
 		}
 		/*--- End of Conversion Table ---*/
-		var $dispSymbol = $("#disp-symbol").text();
-		var $finalPSymbol = $("#final-p-symbol").text();
-		var $initialPSymbol = $("#initial-p-symbol").text();
-		var $meterUnit = $("#meter-btn").attr("units");
-		var $kilometerUnit = $("#kilometer-btn").attr("units");
-		var $feetUnit = $("#feet-btn").attr("units");
-		var $mileUnit = $("#mile-btn").attr("units");
 
 
 		window.addEventListener("resize", function(){
@@ -562,36 +519,6 @@
 					}
 				})
 			}
-			if(window.innerWidth < 525 && window.innerWidth > 460){
-				$(".checkmark").eq(0).text($dispSymbol);
-				$(".checkmark").eq(1).text("Final-P");
-				$(".checkmark").eq(2).text("Initial-P");
-			} else if (window.innerWidth < 460 && window.innerWidth > 381){
-				$(".checkmark").eq(0).text($dispSymbol);
-				$(".checkmark").eq(1).text("Final-P");
-				$(".checkmark").eq(2).text("Initial-P");
-				$(".checkmark").eq(3).text($meterUnit);
-				$(".checkmark").eq(4).text($mileUnit);
-				$(".checkmark").eq(5).text($feetUnit);
-				$(".checkmark").eq(6).text($kilometerUnit);
-			} else if (window.innerWidth < 381){
-				$(".checkmark").eq(0).text($dispSymbol);
-				$(".checkmark").eq(1).text("X f");
-				$(".checkmark").eq(2).text("X i");
-				$(".checkmark").eq(3).text($meterUnit);
-				$(".checkmark").eq(4).text($mileUnit);
-				$(".checkmark").eq(5).text($feetUnit);
-				$(".checkmark").eq(6).text($kilometerUnit);
-			}
-			 else {
-				$(".checkmark").eq(0).text("Displacement");
-				$(".checkmark").eq(1).text("Final Position");
-				$(".checkmark").eq(2).text("Initial Position");
-				$(".checkmark").eq(3).text("Meters");
-				$(".checkmark").eq(4).text("Miles");
-				$(".checkmark").eq(5).text("Feet");
-				$(".checkmark").eq(6).text("Kilometers");
-			}
 		})
 
 		window.addEventListener("load", function(){
@@ -603,34 +530,5 @@
 						$("#go-up-container").css("opacity", "0");
 					}
 				})
-			}
-			if(window.innerWidth < 525 && window.innerWidth > 460){
-				$(".checkmark").eq(0).text($dispSymbol);
-				$(".checkmark").eq(1).text("Final-P");
-				$(".checkmark").eq(2).text("Initial-P");
-			} else if (window.innerWidth < 460 && window.innerWidth > 381){
-				$(".checkmark").eq(0).text($dispSymbol);
-				$(".checkmark").eq(1).text("Final-P");
-				$(".checkmark").eq(2).text("Initial-P");
-				$(".checkmark").eq(3).text($meterUnit);
-				$(".checkmark").eq(4).text($mileUnit);
-				$(".checkmark").eq(5).text($feetUnit);
-				$(".checkmark").eq(6).text($kilometerUnit);
-			} else if (window.innerWidth < 381){
-				$(".checkmark").eq(0).text($dispSymbol);
-				$(".checkmark").eq(1).text("X f");
-				$(".checkmark").eq(2).text("X i");
-				$(".checkmark").eq(3).text($meterUnit);
-				$(".checkmark").eq(4).text($mileUnit);
-				$(".checkmark").eq(5).text($feetUnit);
-				$(".checkmark").eq(6).text($kilometerUnit);
-			} else {
-				$(".checkmark").eq(0).text("Displacement");
-				$(".checkmark").eq(1).text("Final Position");
-				$(".checkmark").eq(2).text("Initial Position");
-				$(".checkmark").eq(3).text("Meters");
-				$(".checkmark").eq(4).text("Miles");
-				$(".checkmark").eq(5).text("Feet");
-				$(".checkmark").eq(6).text("Kilometers");
 			}
 		})
