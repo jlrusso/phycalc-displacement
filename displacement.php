@@ -18,99 +18,6 @@
 		include_once "navSearch.php";
 	?>
 
-	<!-- <nav class="clearfix">
-		<div class="nav-logo animated fadeInRight"><a href="phyCalc.php">PhyCalc</a></div>
-		<div class="navigation animated fadeInLeft">
-			<ul class="horizontal-nav">
-				<li><a href="#" id="examples-btn">Examples</a></li>
-				<li><a href="#" data-toggle="modal" data-target="#calculator-modal">Calculator</a></li>
-				<li><a href="#" id="conversion-btn">Conversions</a></li>
-				<li><a href="#" id="horizontal-search-btn"><i class="glyphicon glyphicon-search"></i></a></li>
-			</ul>
-			<div class="animated fadeInLeft" id="icon">
-				<div id="vertical-search-btn"><i class="glyphicon glyphicon-search"></i></div>
-				<div id="click-box"></div>
-				<span class="hamburger"></span>
-				<div id="vertical-nav" class="vertical-nav">
-					<ul>
-						<li><a data-toggle="modal" data-target="#calculator-modal">Calculator</a></li>
-						<li><a href="#" id="vert-conversion-btn">Conversions</a></li>
-						<li><a href="#" id="vert-examples-btn">Examples</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
-
-	<div id="search-section">
-		<section id="search-form">
-			<input type="text" id="search-bar" placeholder="Search"/>
-			<div id="search-icon"><i class="glyphicon glyphicon-search"></i></div>
-		</section>
-		<div id="close-search-btn">
-			<span id="close-bar-one"></span>
-			<span id="close-bar-two"></span>
-		</div>
-		<div id="search-case-list">
-			<a href="displacement.html">displacement</a>
-			<a href="displacement.html">initial position</a>
-			<a href="displacement.html">final position</a>
-			<a href="displacement.html">position motion</a>
-			<a href="displacement.html">negative motion</a>
-			<a href="displacement.html">distance and displacement</a>
-			<a href="displacement.html">position and time</a>
-			<a href="displacement.html">net displacement</a>
-			<a href="vectorDisplacement.html">vectors</a>
-			<a href="vectorDisplacement.html">vector displacement</a>
-			<a href="vectorDisplacement.html">multi-dimensional displacement</a>
-			<a href="vectorDisplacement.html">vector identity</a>
-			<a href="vectorDisplacement.html">angled displacement</a>
-			<a href="vectorDisplacement.html">angled travel</a>
-			<a href="vectorDisplacement.html">displacement trigonometry</a>
-			<a href="vectorDisplacement.html">inverse trigonometry</a>
-			<a href="vectorDisplacement.html">pythagorean theorem</a>
-			<a href="vectorDisplacement.html">vector addition</a>
-			<a href="velocity.html">solving velocity</a>
-			<a href="velocity.html">velocity and displacement</a>
-			<a href="velocity.html">velocity and time interval</a>
-			<a href="velocity.html">displacement and time interval</a>
-			<a href="velocity.html">speed and velocity</a>
-			<a href="acceleration.html">acceleration</a>
-			<a href="acceleration.html">changing velocity</a>
-			<a href="acceleration.html">time and acceleration</a>
-			<a href="acceleration.html">negative acceleration</a>
-			<a href="acceleration.html">positive acceleration</a>
-			<a href="acceleration.html">velocity and acceleration</a>
-			<a href="acceleration.html">time and acceleration</a>
-			<a href="kinematics.html">kinematics</a>
-			<a href="kinematics.html">big five</a>
-			<a href="kinematics.html">initial velocity kinematics</a>
-			<a href="kinematics.html">final velocity kinematics</a>
-			<a href="kinematics.html">initial position kinematics</a>
-			<a href="kinematics.html">final position kinematics</a>
-			<a href="kinematics.html">acceleration kinematics</a>
-			<a href="kinematics.html">constant acceleration</a>
-			<a href="kinematics.html">constant velocity</a>
-			<a href="kinematics.html">velocity and acceleration kinematics</a>
-			<a href="circularMotion.html">angular velocity</a>
-			<a href="circularMotion.html">period circular motion</a>
-			<a href="circularMotion.html">radius circular motion</a>
-			<a href="circularMotion.html">uniform circular motion</a>
-			<a href="circularMotion.html">frequency circular motion</a>
-			<a href="forces.html">solving net force</a>
-			<a href="forces.html">one dimensional forces</a>
-			<a href="forces.html">mass and acceleration</a>
-			<a href="forces.html">newton's laws</a>
-			<a href="forces.html">normal forces</a>
-			<a href="gravitationalForces.html">gravitational forces</a>
-			<a href="gravitationalForces.html">newton's gravitational laws</a>
-			<a href="gravitationalForces.html">inverse square law</a>
-			<a href="gravitationalForces.html">action reaction pairs</a>
-			<a href="gravitationalForces.html">gravity and acceleration</a>
-			<a href="gravitationalForces.html">gravitational constant</a>
-		</div>
-	</div> -->
-
 	<section id="main-content">
 		<div class="container">
 			<div class="row">
@@ -133,15 +40,15 @@
 										<span><span class="badge">1</span><b> Solve:&nbsp;</b></span>
 										<label class="radio-btn">
 										 	<input type="radio" class="solve-btns" name="radio-one" id="solve-displacement-radio-btn">
-										    <span class="checkmark">Displacement</span> |
+										    <span class="checkmark">displacement</span> |
 										</label>
 										<label class="radio-btn">
 										    <input type="radio" class="solve-btns" name="radio-one" id="solve-final-p-radio-btn">
-										    <span class="checkmark">Final Position</span> |
+										    <span class="checkmark">final position</span> |
 										</label>
 										<label class="radio-btn">
 										    <input type="radio" class="solve-btns" name="radio-one" id="solve-initial-p-radio-btn">
-										    <span class="checkmark">Initial Position</span>
+										    <span class="checkmark">initial position</span>
 										</label>
 									</form>
 								</div>
@@ -151,19 +58,19 @@
 										<span><b>Unit:&nbsp;</b></span>
 										<label class="radio-btn">
 										 	<input type="radio" class="first-units" name="radio-two" units="m" id="meter-btn"/>
-										    <span class="checkmark">Meters</span> |
+										    <span class="checkmark">meters</span> |
 										</label>
 										<label class="radio-btn">
 										    <input type="radio" class="first-units" name="radio-two" units="mi" id="mile-btn"/>
-										    <span class="checkmark">Miles</span> |
+										    <span class="checkmark">miles</span> |
 										</label>
 										<label class="radio-btn">
 										    <input type="radio" class="first-units" name="radio-two" units="ft" id="feet-btn"/>
-										    <span class="checkmark">Feet</span> |
+										    <span class="checkmark">feet</span> |
 										</label>
 										<label class="radio-btn">
 										    <input type="radio" class="first-units" name="radio-two" units="km" id="kilometer-btn"/>
-										    <span class="checkmark">Kilometers</span>
+										    <span class="checkmark">kilometers</span>
 										</label>
 									</form>
 								</div>
@@ -174,9 +81,9 @@
 								<div class="col-md-4">
 									<h4 class="text-center"><span class="badge">3</span>&nbsp;<strong>Values</strong></h4>
 									<form class="form-group">
-										<input class="form-control num-input-field" type="number" id="displacement-field" placeholder="Displacement">
-										<input class="form-control num-input-field" type="number" id="final-p-field" placeholder="Final Position">
-										<input class="form-control num-input-field" type="number" id="initial-p-field" placeholder="Initial Position">
+										<input class="form-control num-input-field" type="number" id="displacement-field" placeholder="displacement (&Delta;x)">
+										<input class="form-control num-input-field" type="number" id="final-p-field" placeholder="final position (Xf)">
+										<input class="form-control num-input-field" type="number" id="initial-p-field" placeholder="initial position (Xi)">
 										<input class="form-control num-input-field" type="number" id="sig-figs-field" placeholder="# of sig-figs (optional)">
 										<div class="form-divider"></div>
 										<div class="calc-and-clear">
@@ -313,10 +220,10 @@
 									<b>Displacement</b> = net distance traveled<br/>
 								</p>
 							</div>
-							<button class="accordion"><strong>Illustrations</strong></button>
+							<button class="accordion"><strong>Illustration</strong></button>
 							<div class="modal-panel text-center">
 								<p>
-								<img src="../img/displacement-accordion-picture-one.png" alt="Displacement Illustrations" class="img-responsive">
+								<img src="../img/displacement-accordion-picture-one.png" alt="Displacement Illustration" class="img-responsive">
 								</p>
 							</div>
 							<button class="accordion last-accordion"><strong>Solution</strong></button>
@@ -362,9 +269,9 @@
 									</ul>
 								</p>
 							</div>
-							<button class="accordion"><strong>Illustrations</strong></button>
+							<button class="accordion"><strong>Illustration</strong></button>
 							<div class="modal-panel text-center">
-								<img src="../img/displacement-accordion-picture-two.png" alt="Displacement Illustrations" class="img-responsive">
+								<img src="../img/displacement-accordion-picture-two.png" alt="Displacement Illustration" class="img-responsive">
 							</div>
 							<button class="accordion last-accordion"><strong>Solution</strong></button>
 							<div class="modal-panel">
@@ -410,9 +317,9 @@
 									</ul>
 								</p>
 							</div>
-							<button class="accordion"><strong>Illustrations</strong></button>
+							<button class="accordion"><strong>Illustration</strong></button>
 							<div class="modal-panel text-center">
-								<img src="../img/displacement-accordion-picture-three.png" alt="Displacement Illustrations" class="img-responsive">
+								<img src="../img/displacement-accordion-picture-three.png" alt="Displacement Illustration" class="img-responsive">
 							</div>
 							<button class="accordion last-accordion"><strong>Solution</strong></button>
 							<div class="modal-panel">
