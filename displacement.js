@@ -7,7 +7,7 @@
 		calculatorBtn.setAttribute("data-target", "#calculator-modal");
 
 		$(document).ready(function(){
-			$("#contact-btn").parent("li").add("#vert-contact-btn").parent("li").remove();
+			$("#contact-btn").add("#vert-contact-btn").remove();
 			var $calcParentLi = $("#calculator-btn").parent("li");
 			$calcParentLi.before("<li><a href='#' id='examples-btn'>Examples</a></li>");
 			var $vertCalcParentLi = $("#vert-calculator-btn").parent("li");
