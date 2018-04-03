@@ -465,17 +465,17 @@ nav {
 	-moz-transition: 0.4s;
 	-o-transition: 0.4s;
 }
-.next-page {
+.next-page-btn {
 	padding-right: 0px !important;
 }
 a .glyphicon-chevron-right {
 	opacity: 0;
 	transition: 0.4s;
 }
-a.next-page:hover {
+a.next-page-btn:hover {
 	background-color: var(--main-yellow-color) !important;
 }
-a.next-page:hover .glyphicon-chevron-right {
+a.next-page-btn:hover .glyphicon-chevron-right {
 	padding: 0 5px 0 10px;
 	opacity: 1;
 }
