@@ -585,7 +585,9 @@ a.next-page:hover .glyphicon-chevron-right {
   border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5)
+  box-shadow: 0 0 10px var(--main-black-color);
+	-webkit-box-shadow: 0 0 10px var(--main-black-color);
+	-moz-box-shadow: 0 0 10px var(--main-black-color);
 }
 /*--- Topic Calculator and Equation*/
 .unit-selection,
@@ -896,7 +898,6 @@ input[type="radio"] {
 /*--- Third Page Pictures ---*/
 .third-page-pics {
   position: relative;
-	overflow-y: hidden;
 }
 .third-page-pics img {
   width:100%;
@@ -904,12 +905,15 @@ input[type="radio"] {
   border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
 }
-.third-page-pics img:focus {
-  outline: none;
+.third-page-pics:hover img {
+	box-shadow: 0 0 10px var(--main-black-color);
+	-webkit-box-shadow: 0 0 10px var(--main-black-color);
+	-moz-box-shadow: 0 0 10px var(--main-black-color);
 }
 .img-caption {
   width: 85%;
