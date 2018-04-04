@@ -100,9 +100,9 @@
 									</div>
 									<div id="outer-image-container">
 										<div id="inner-image-container">
-											<img src="../img/basic-displacement.png" class="img-responsive slide" alt="Displacement Equation">
-											<img src="../img/basic-final-position.png" class="img-responsive slide" alt="Final Position Equation">
-											<img src="../img/basic-initial-position.png" class="img-responsive slide" alt="Initial Position Equation">
+											<img src="img/basic-displacement.png" class="img-responsive slide" alt="Displacement Equation">
+											<img src="img/basic-final-position.png" class="img-responsive slide" alt="Final Position Equation">
+											<img src="img/basic-initial-position.png" class="img-responsive slide" alt="Initial Position Equation">
 										</div>
 										<div id="slide-bar-indicators">
 											<div class="slide-bar"></div>
@@ -111,7 +111,7 @@
 										</div>
 									</div>
 									<div id="solo-image">
-										<img src="../img/newVelocityFrames.png" class="img-responsive" alt="Velocity Frames"/>
+										<img src="img/newVelocityFrames.png" class="img-responsive" alt="Velocity Frames"/>
 									</div>
 								</div>
 							</div>
@@ -157,7 +157,7 @@
 								</div>
 							</div>
 							<div class="module-img">
-								<img src="../img/positionVTimeGraph.png" class="img-responsive" alt="Position v. Time Graph">
+								<img src="img/positionVTimeGraph.png" class="img-responsive" alt="Position v. Time Graph">
 							</div>
 						</div>
 					</div>
@@ -168,19 +168,19 @@
 				<div class="panel-body" id="third-panel-body">
 					<div class="row animated fadeInLeft" id="third-pics-row">
 						<div class="col-sm-4 third-page-pics">
-							<img src="../img/footballField.jpg" alt="Football Field" class="img-responsive">
+							<img src="img/footballField.jpg" alt="Football Field" class="img-responsive">
 							<div class="img-caption">
 								<p>NFL player Jim Marshall ran a fumble 66 yards to his own endzone. As in the NFL, direction matters in dislpacement.</p>
 							</div>
 						</div>
 						<div class="col-sm-4 third-page-pics">
-							<img src="../img/curvedRoad.jpg" alt="Track and Field" class="img-responsive">
+							<img src="img/curvedRoad.jpg" alt="Track and Field" class="img-responsive">
 							<div class="img-caption">
 								<p>If the distance from end to end in this loop is 200 meters, the net displacement might only be 30 meters</p>
 							</div>
 						</div>
 						<div class="col-sm-4 third-page-pics">
-							<img src="../img/raceStart.jpg" alt="Race Start" class="img-responsive">
+							<img src="img/raceStart.jpg" alt="Race Start" class="img-responsive">
 							<div class="img-caption">
 								<p>800 meter track runners may start at different points along the track, but the total distance ran is always 800 meters.</p>
 							</div>
@@ -191,13 +191,9 @@
 
 			<div class="line-divider"></div>
 
-			<div class="row text-center" id="practice-btns-outer">
-				<div class="text-center" id="practice-btns-container">
-					<button type="button" class="practice-btn" data-toggle="modal" data-target="#my-modal-one">Example 1</button>
-					<button type="button" class="practice-btn" data-toggle="modal" data-target="#my-modal-two">Example 2</button>
-					<button type="button" class="practice-btn" data-toggle="modal" data-target="#my-modal-three">Example 3</button>
-				</div>
-			</div>
+			<?php
+				include_once "practice.php";
+			?>
 
 			<div class="modal fade example-modal" id="my-modal-one" role="dialog">
 				<div class="modal-dialog">
@@ -223,7 +219,7 @@
 							<button class="accordion"><strong>Illustration</strong></button>
 							<div class="modal-panel text-center">
 								<p>
-								<img src="../img/displacement-accordion-picture-one.png" alt="Displacement Illustration" class="img-responsive">
+								<img src="img/displacement-accordion-picture-one.png" alt="Displacement Illustration" class="img-responsive">
 								</p>
 							</div>
 							<button class="accordion last-accordion"><strong>Solution</strong></button>
@@ -271,7 +267,7 @@
 							</div>
 							<button class="accordion"><strong>Illustration</strong></button>
 							<div class="modal-panel text-center">
-								<img src="../img/displacement-accordion-picture-two.png" alt="Displacement Illustration" class="img-responsive">
+								<img src="img/displacement-accordion-picture-two.png" alt="Displacement Illustration" class="img-responsive">
 							</div>
 							<button class="accordion last-accordion"><strong>Solution</strong></button>
 							<div class="modal-panel">
@@ -319,7 +315,7 @@
 							</div>
 							<button class="accordion"><strong>Illustration</strong></button>
 							<div class="modal-panel text-center">
-								<img src="../img/displacement-accordion-picture-three.png" alt="Displacement Illustration" class="img-responsive">
+								<img src="img/displacement-accordion-picture-three.png" alt="Displacement Illustration" class="img-responsive">
 							</div>
 							<button class="accordion last-accordion"><strong>Solution</strong></button>
 							<div class="modal-panel">
