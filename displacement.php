@@ -25,7 +25,7 @@
 					<h2 class="animated bounceInDown section-heading">Displacement</h2>
 					<div class="pages-nav animated bounceInDown" id="top-next">
 						<ul class="pager">
-							<li><a href="vectorDisplacement.php" class="next-page-btn">Next: Vector Displacement<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+							<li><a href="/2d-displacement" class="next-page-btn">Next: Vector Displacement<span class="glyphicon glyphicon-chevron-right"></span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -100,9 +100,9 @@
 									</div>
 									<div id="outer-image-container">
 										<div id="inner-image-container">
-											<img src="img/basic-displacement.png" class="img-responsive slide" alt="Displacement Equation">
-											<img src="img/basic-final-position.png" class="img-responsive slide" alt="Final Position Equation">
-											<img src="img/basic-initial-position.png" class="img-responsive slide" alt="Initial Position Equation">
+											<img src="img/basic-displacement.PNG" class="img-responsive slide" alt="Displacement Equation">
+											<img src="img/basic-final-position.PNG" class="img-responsive slide" alt="Final Position Equation">
+											<img src="img/basic-initial-position.PNG" class="img-responsive slide" alt="Initial Position Equation">
 										</div>
 										<div id="slide-bar-indicators">
 											<div class="slide-bar"></div>
@@ -111,7 +111,7 @@
 										</div>
 									</div>
 									<div id="solo-image">
-										<img src="img/newVelocityFrames.png" class="img-responsive" alt="Velocity Frames"/>
+										<img src="img/newVelocityFrames.PNG" class="img-responsive" alt="Velocity Frames"/>
 									</div>
 								</div>
 							</div>
@@ -157,7 +157,7 @@
 								</div>
 							</div>
 							<div class="module-img">
-								<img src="img/positionVTimeGraph.png" class="img-responsive" alt="Position v. Time Graph">
+								<img src="img/positionVTimeGraph.PNG" class="img-responsive" alt="Position v. Time Graph">
 							</div>
 						</div>
 					</div>
@@ -219,7 +219,7 @@
 							<button class="accordion"><strong>Illustration</strong></button>
 							<div class="modal-panel text-center">
 								<p>
-								<img src="img/displacement-accordion-picture-one.png" alt="Displacement Illustration" class="img-responsive">
+								<img src="img/displacement-accordion-picture-one.PNG" alt="Displacement Illustration" class="img-responsive">
 								</p>
 							</div>
 							<button class="accordion last-accordion"><strong>Solution</strong></button>
@@ -267,7 +267,7 @@
 							</div>
 							<button class="accordion"><strong>Illustration</strong></button>
 							<div class="modal-panel text-center">
-								<img src="img/displacement-accordion-picture-two.png" alt="Displacement Illustration" class="img-responsive">
+								<img src="img/displacement-accordion-picture-two.PNG" alt="Displacement Illustration" class="img-responsive">
 							</div>
 							<button class="accordion last-accordion"><strong>Solution</strong></button>
 							<div class="modal-panel">
@@ -315,7 +315,7 @@
 							</div>
 							<button class="accordion"><strong>Illustration</strong></button>
 							<div class="modal-panel text-center">
-								<img src="img/displacement-accordion-picture-three.png" alt="Displacement Illustration" class="img-responsive">
+								<img src="img/displacement-accordion-picture-three.PNG" alt="Displacement Illustration" class="img-responsive">
 							</div>
 							<button class="accordion last-accordion"><strong>Solution</strong></button>
 							<div class="modal-panel">
@@ -342,7 +342,7 @@
 
 		<div class="container">
 			<ul class="pager">
-  				<li><a href="vectorDisplacement.php" class="next-page-btn">Next: Vector Displacement<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+  				<li><a href="/2d-displacement" class="next-page-btn">Next: Vector Displacement<span class="glyphicon glyphicon-chevron-right"></span></a></li>
 			</ul>
 		</div>
 
