@@ -342,7 +342,7 @@
 
 		<div class="container">
 			<ul class="pager">
-  				<li><a href="/2d-displacement" class="next-page-btn">Next: Vector Displacement<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+  				<li><a href="vectorDisplacement.php" class="next-page-btn">Next: Vector Displacement<span class="glyphicon glyphicon-chevron-right"></span></a></li>
 			</ul>
 		</div>
 
