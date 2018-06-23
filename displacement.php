@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PhyCalc | Displacement</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IP | Displacement</title>
+	<link rel="shortcut icon" href="/img/ip-logo.ico" type="image/ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="displacement.css">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
@@ -15,7 +15,7 @@
 <body>
 
 	<?php
-		include_once "navSearch.php";
+		include_once "nav-template.php";
 	?>
 
 	<section id="main-content">
@@ -25,7 +25,7 @@
 					<h2 class="animated bounceInDown section-heading">Displacement</h2>
 					<div class="pages-nav animated bounceInDown" id="top-next">
 						<ul class="pager">
-							<li><a href="/2d-displacement" class="next-page-btn">Next: Vector Displacement<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+							<li><a href="vectorDisplacement.php" class="next-page-btn">Next: Vector Displacement<span class="glyphicon glyphicon-chevron-right"></span></a></li>
 						</ul>
 					</div>
 				</div>
